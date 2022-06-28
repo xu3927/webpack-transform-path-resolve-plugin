@@ -1,0 +1,32 @@
+{
+  "name": "webpack-transform-path-resolve-plugin",
+  "version": "1.0.8",
+  "description": "webpack resolve plugin fro tranform path with function",
+  "main": "lib/index.js",
+  "repository": "https://github.com/xu3927/webpack-transform-path-resolve-plugin.git",
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "webpack",
+    "resolve",
+    "plugin",
+    "fallback",
+    "webpack plugin"
+  ],
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "pub": "npm run build; npm publish;",
+    "dev": "npx tsc -w",
+    "test": "npx jest"
+  },
+  "types": "lib/index.d.ts",
+  "peerDependencies": {
+    "webpack": ">= 3.0.0"
+  },
+  "devDependencies": {
+    "enhanced-resolve": "^5.10.0",
+    "jest": "^28.1.1",
+    "standard-version": "^9.3.2",
+    "typescript": "^4.7.4"
+  }
+}
