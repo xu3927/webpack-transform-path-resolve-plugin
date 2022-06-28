@@ -1,7 +1,7 @@
 {
   "name": "webpack-transform-path-resolve-plugin",
-  "version": "1.0.8",
-  "description": "webpack resolve plugin fro tranform path with function",
+  "version": "1.0.1",
+  "description": "webpack resolve plugin for tranform path with function",
   "main": "lib/index.js",
   "repository": "https://github.com/xu3927/webpack-transform-path-resolve-plugin.git",
   "author": "",
